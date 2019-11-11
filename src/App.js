@@ -14,10 +14,10 @@ function App() {
 		setCheckedItems({
 			...checkedItems,
 			[event.target.name]: event.target.checked
-    });
-    
-    console.log("checkedItems: ", checkedItems);
-    
+				});
+
+		console.log("checkedItems: ", checkedItems);
+
 	};
 
 	const checkboxes = [
@@ -97,8 +97,8 @@ class App extends React.Component {
 							defaultChecked
 							onChange={onChange}
 							disabled={this.state.disabled}
-								/>
-								<span>test</span>
+						/>
+						<span>test</span>
 					</label>
 				</section>
 				<footer className="App-footer">
